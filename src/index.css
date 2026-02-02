@@ -1,0 +1,23 @@
+@import "./css/reset.css" layer(reset);
+@import "./css/tailwind-colors.css" layer(base);
+@import "./css/easings.css" layer(base);
+
+@layer reset, base, components;
+
+@layer base {
+  body {
+    padding: 2rem;
+  }
+
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+}
+
+.navButtons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
